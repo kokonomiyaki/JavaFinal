@@ -36,6 +36,18 @@ alloc
 new
 new malloc
 
+An array of characters is always a string
+1
+true
+false
+
+Which of the following is FALSE about arrays on Java
+1
+A java array is always an object
+Length of array can be changed after creation of array
+Arrays in Java are always allocated on heap
+The final index of an array is always array.length - 1
+
 :Inheritance
 
 Which of the following is the correct way for the SavingsAccount class to inherit from the BankAccount class.
@@ -86,6 +98,18 @@ Protected
 Private
 all of the above
 
+Multiple inheritance is not allowed in Java
+0
+true
+false
+
+A class Animal has a subclass Mammal. Which of the following is true
+3
+Because of single inheritance, Mammal can have no other parent than Animal.
+Because of single inheritance, Animal can have only one subclass.
+Because of single inheritance, Mammal can have no siblings. 
+Because of single inheritance, Mammal can have no subclasses.
+
 :Interface dependent Polymorphism
 
 Which is a declaration of an abstract method named onClicked is void returning and has no parameters?
@@ -123,6 +147,18 @@ Public
 Protected
 Private
 all of the above
+
+An astract method cannot be defined in a non-abstract class
+0
+true
+false
+
+What is an advantage of polymorphism?
+2
+Polymorphism is a dangerous and should be avoided.
+Constructing new objects from old objects of a similar type saves time. 
+The same program logic can be used with objects of several related types.
+Variables can be re-used in order to save memory.
 
 :Software development
 
@@ -162,6 +198,18 @@ The java.rmi package is used for invoking a method remotely.
 True
 False
 
+What happens during execution if an negative value is used for an array index?
+0
+An IndexOutOfBoundsException is thrown.
+A NumberFormatException is thrown.
+The first slot of the array is used.
+This is an Error, so the program immediately terminates no matter what. 
+
+If no package is specified, a new package is created with folder name of class and the class is put in this package.
+1
+true
+false
+
 :Regex
 
 Which is the regex expression for a whitespace character
@@ -200,6 +248,18 @@ perform match in string
 interprets both pattern and performs match operations in the string
 none of the above
 
+public String replaceAll(string replace); Will replace every subsequence of the input sequence that matches pattern with a replacement string.
+0
+true
+false
+
+Which capturing group can represent the entire expression?
+1
+group *
+group 0
+group * or group 0
+None of the above
+
 :I/O & object serialization
 
 Which is the correct way to open a file "file.txt" with a scanner.
@@ -236,6 +296,18 @@ What is deserialization?
 Turning object in memory into stream of bytes
 Turning stream of bytes into an object in memory
 Turning object in memory in stream of bits
+
+Serialization in Java is the process of turning object in memory into stream of bits.
+1
+true
+false
+
+What type of members are not serialized?
+0
+Static
+Private
+Protected
+Throwable
 
 :Lambdas
 
@@ -275,6 +347,18 @@ A lambda consists of a parameter list followed by the arrow token and a body.
 True
 False
 
+Terminal operations are lazy, they perform the requested operation when they are called.
+1
+true
+false
+
+What is the return type of lambda expression?
+3
+String
+Object
+void
+Function
+
 :Generic classes and methods
 
 Which of the following is the declaration of a Test class with a generic data type E.
@@ -311,6 +395,18 @@ What are generic methods?
 Generic methods are the methods defined in a generic class
 Generic methods are the methods that extend generic class methods
 Generic methods are methods that introduce their own type parameters
+
+A generic method cannot have the same method name as a nongeneric method.
+1
+true
+false
+
+Which of these Exception handlers cannot be type parameterized?
+3
+catch
+throw
+throws
+all of the above
 
 :Recursion
 
@@ -350,6 +446,18 @@ An infinite loop will occur if a recursive method does not have a base case.
 True
 False
 
+Recursion can be inefficient in computation because of multiple method calls and excessive memory-space usage.
+0
+true
+false
+
+Each time a fractal's pattern is applied, the fractal is said to be at a new _______.
+1
+width
+level
+height
+volume
+
 :Concurrency
 
 Which is thread safe.
@@ -387,3 +495,15 @@ old
 new
 void
 all the above
+
+Timeslicing allows a thread to execute until its timeslice (or quantum) expires. Then other threads of equal priority can execute.
+0
+true
+false
+
+To obtain a parallel stream, simple invoke method ________ on an existing stream/
+3
+signal
+signalAll
+paarallelSetAll
+parallel
