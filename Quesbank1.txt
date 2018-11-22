@@ -1,0 +1,31 @@
+
+True or False. The position number of the element of an array is called the element's Index or Subscript. :: True :: Arrays :: Arrays
+The first element in every array has index a. one, b. zero, c. two, d. none of the above :: b :: Arrays :: Arrays
+
+The superclass from which the subclass explicitly inherits is the a. direct superclass, b. indirect superclass, c. subclass, d. base class :: a :: Inheritance :: Inheritance
+True or False. Java supports only single inheritance, in which each class is derived from exactly one direct superclass. :: True :: Inheritance :: Inheritance
+
+True or False. If we want to use the attributes of multiple classes, we can implement multiple interfaces :: True :: Interface :: Interface
+In interfaces, to declare a "default" method, place the keyword " " before the method's return type and provide a concrete method implementation. a. default, b. abstract, c. interface :: a :: Interface :: Interface
+
+True or False. An "exception" is a divergence to the expected sequence of events in a program :: True :: Software development :: exception handling
+A " " contains the name of the exception (ex. java.lang.ArithmeticException) in a descriptive message that indicates the problem and method-call stack at the time the problem occured a. try-catch, b. stack trace, c. file class :: b :: Software development :: exception handling 
+
+What quantifier is used to match zero or more occurrences? a. ?, b. +, c. {n}, d. * :: d :: Regex :: Regex
+True or False. In regex, a character class is an "escape sequence" that represents a group of characters. :: T :: Regex :: Regex
+
+Path method " " gets the String name of the file or directory without any location information a. getFileName, b. toString, c. isDirectory :: a :: I/O & object serialization :: I/O & object serialization
+True or False. Files created using character-based streams are text files. :: True :: I/O & object serialization :: I/O & object serialization
+
+True or False. One of the reasons to use Lambdas is for fuctional programming; to pass functions as data; functional interfaces :: True :: Lambdas :: Lambdas
+To define a lambda with an empty parameter list, use empty paratheses to the left of the " ". a. arrow token (->), b. x, c. int :: a :: Lambdas :: Lambdas
+
+True or False. Generic methods enable you to specify, with one method declaration, a set of related methods. :: True :: Generics :: Generics
+All Generic method declarations have a " " delimited by angle brackets that precedes the method's return type. a. class, b. type-parameter section, c. Lambda :: b :: Generics :: Generics
+
+True or False. A Fractal is a geometric figure that is generated from a pattern repeated recursively. :: True :: Recursion :: Recursion
+A " " method calls itself directly or indirectly through another method. a. recursive, b. generic, c. abstract :: a :: Recursion :: Recursion
+
+True or False. A program will not terminate until its last thread completes execution. :: True :: Concurrency :: Concurrency
+A " " object represents a task that can execute concurrently with other tasks. a. Runnable, b. Interface, c. sleeping :: a :: Concurrency :: Concurrency
+
