@@ -12,13 +12,13 @@ The following expression is equivalent to the value in the last slot of the arra
 True
 False
 
-An index can be positive or negative integer
+An index can be positive or negative integer.
 1
 True
 False
 
-What is the result of a[1,1] in int [][] a = {{1,2}, {3,4}}? 
-1
+What is the result of a[1][1] in int [][] a = {{1,2}, {3,4}}? 
+3
 1
 2
 3
@@ -30,23 +30,35 @@ True
 False
 
 Which of these operations is used to allocate memory to array variable in Java?
-3
+2???
 malloc
 alloc
 new
 new malloc
 
-An array of characters is always a string
+An array of characters is always a string.
 1
-true
-false
+True
+False
 
-Which of the following is FALSE about arrays on Java
+Which of the following is FALSE about arrays on Java.
 1
 A java array is always an object
 Length of array can be changed after creation of array
 Arrays in Java are always allocated on heap
 The final index of an array is always array.length - 1
+
+The first element in every array has index ___.
+1
+one
+zero
+two
+none of the above
+
+The position number of the element of an array is called the element's Index or Subscript.
+0
+True
+False
 
 :Inheritance
 
@@ -80,7 +92,7 @@ True
 False
 
 Declaring a superclass instance variables as ___ enables the superclass implementation of these instance variables to change without affecting subclass implementations.
-3
+3???
 public
 private
 new
@@ -98,38 +110,50 @@ Protected
 Private
 all of the above
 
-Multiple inheritance is not allowed in Java
+Multiple inheritance is not allowed in Java.
 0
-true
-false
+True
+False
 
-A class Animal has a subclass Mammal. Which of the following is true
-3
+A class Animal has a subclass Mammal. Which of the following is true.
+0
 Because of single inheritance, Mammal can have no other parent than Animal.
 Because of single inheritance, Animal can have only one subclass.
 Because of single inheritance, Mammal can have no siblings. 
 Because of single inheritance, Mammal can have no subclasses.
 
+The superclass from which the subclass explicitly inherits is the___.
+0
+direct superclass
+indirect superclass
+subclass
+base class
+
+Java supports only single inheritance, in which each class is derived from exactly one direct superclass.
+0
+True
+False
+
 :Interface dependent Polymorphism
 
-Which is a declaration of an abstract method named onClicked is void returning and has no parameters?
+Which is a declaration of an abstract method named onClicked, is void returning and has no parameters?
 0
 abstract public void onClicked();
 public void onClicked();
 abstract public void onClicked(bool clicked);
 abstract public boolean onClicked();
 
-(public class testClass extends testInterface) is how a class used an interface.
+(public class testClass extends testInterface) is how a class uses an interface.
 1
 True
 False
 
-Polymorphism enables users to “program in the specific” rather than ”program in the general”
+Polymorphism enables users to “program in the specific” rather than ”program in the general”.
 1
 True
 False
 
-Class from which objects can be instantiated are called ___classes.
+Class from which objects can be instantiated are called ___ classes.
 2
 Abstract
 Super
@@ -148,17 +172,28 @@ Protected
 Private
 all of the above
 
-An astract method cannot be defined in a non-abstract class
-0
-true
-false
+An astract method cannot be defined in a non-abstract class.
+1???
+True
+False
 
 What is an advantage of polymorphism?
 2
-Polymorphism is a dangerous and should be avoided.
+Polymorphism is dangerous and should be avoided.
 Constructing new objects from old objects of a similar type saves time. 
 The same program logic can be used with objects of several related types.
 Variables can be re-used in order to save memory.
+
+If we want to use the attributes of multiple classes, we can implement multiple interfaces.
+0
+True
+False
+
+In interfaces, to declare a "default" method, place the keyword ___ before the method's return type and provide a concrete method implementation.
+0
+default
+abstract
+interface
 
 :Software development
 
@@ -167,14 +202,14 @@ Exceptions are thrown when a method detects a problem and is unable to handle it
 True
 False
 
-Class Throwable has two subclasses
+Class Throwable has two subclasses ___.
 3
 Try and Catch.
 Match and Error.
 Exception and Finally.
 Exception and Error.
 
-Which are Java IDE's
+Which are Java IDE's.
 3
 BlueJ
 NetBeans
@@ -207,12 +242,12 @@ This is an Error, so the program immediately terminates no matter what.
 
 If no package is specified, a new package is created with folder name of class and the class is put in this package.
 1
-true
-false
+True
+False
 
 :Regex
 
-Which is the regex expression for a whitespace character
+Which is the regex expression for a whitespace character.
 1
 \b
 \s
@@ -224,8 +259,8 @@ With the regex expression (yes|no) the regex matches expressions with yes or no 
 True
 False
 
-“==” determines whether two objects have the same contents
-0
+“==” determines whether two objects have the same contents.
+0???
 True
 False
 
@@ -250,8 +285,8 @@ none of the above
 
 public String replaceAll(string replace); Will replace every subsequence of the input sequence that matches pattern with a replacement string.
 0
-true
-false
+True
+False
 
 Which capturing group can represent the entire expression?
 1
@@ -259,6 +294,18 @@ group *
 group 0
 group * or group 0
 None of the above
+
+What quantifier is used to match zero or more occurrences?
+3
+?
++
+{n}
+*
+
+True or False. In regex, a character class is an "escape sequence" that represents a group of characters.
+0
+True
+False
 
 :I/O & object serialization
 
@@ -274,14 +321,14 @@ When making a class serializable you shouldn't create your own serialVersionUID.
 True
 False
 
-Path method ___ returns a String representing the Path
+Path method ___ returns a String representing the Path.
 0
 toString
 ToString
 Tostring
 None of above is correct
 
-Byte-based streams represents data in binary format
+Byte-based streams represents data in binary format.
 0
 True
 False
@@ -293,14 +340,14 @@ False
 
 What is deserialization?
 1
-Turning object in memory into stream of bytes
-Turning stream of bytes into an object in memory
-Turning object in memory in stream of bits
+Turning object in memory into stream of bytes.
+Turning stream of bytes into an object in memory.
+Turning object in memory in stream of bits.
 
 Serialization in Java is the process of turning object in memory into stream of bits.
 1
-true
-false
+True
+False
 
 What type of members are not serialized?
 0
@@ -309,9 +356,20 @@ Private
 Protected
 Throwable
 
+Path method ___ gets the String name of the file or directory without any location information.
+0
+getFileName
+toString
+isDirectory
+
+Files created using character-based streams are text files.
+0
+True
+False
+
 :Lambdas
 
-Which of the following is the lambda
+Which of the following is the lambda.
 2
 >
 <
@@ -323,19 +381,19 @@ You have to create your own functional interfaces to use lambdas.
 True
 False
 
-Lambdas and streams enable users to write certain kinds of programmer faster, simpler and more concisely and with fewer bugs than with previous techniques
+Lambdas and streams enable users to write certain kinds of programmer faster, simpler and more concisely and with fewer bugs than with previous techniques.
 0
 True
 False
 
-(p) -> System.out.println("One parameter: " + p); is:
+(p) -> System.out.println("One parameter: " + p); is ___.
 0	
 One parameter.
 Zero parameter.
 Multiple parameter.
 None of above is correct.
 
-Lambda expressions can be used to
+Lambda expressions can be used to.
 3
 pass lambdas as objets to other methods
 assign lambda expressions to variables for later use
@@ -349,8 +407,8 @@ False
 
 Terminal operations are lazy, they perform the requested operation when they are called.
 1
-true
-false
+True
+False
 
 What is the return type of lambda expression?
 3
@@ -358,6 +416,17 @@ String
 Object
 void
 Function
+
+One of the reasons to use Lambdas is for fuctional programming to pass functions as data.
+0
+True
+False
+
+To define a lambda with an empty parameter list, use empty paratheses to the left of the ___.
+0
+arrow token (->)
+x
+int
 
 :Generic classes and methods
 
@@ -392,14 +461,14 @@ False
 
 What are generic methods?
 2
-Generic methods are the methods defined in a generic class
-Generic methods are the methods that extend generic class methods
-Generic methods are methods that introduce their own type parameters
+Generic methods are the methods defined in a generic class.
+Generic methods are the methods that extend generic class methods.
+Generic methods are methods that introduce their own type parameters.
 
 A generic method cannot have the same method name as a nongeneric method.
 1
-true
-false
+True
+False
 
 Which of these Exception handlers cannot be type parameterized?
 3
@@ -407,6 +476,17 @@ catch
 throw
 throws
 all of the above
+
+Generic methods enable you to specify, with one method declaration, a set of related methods.
+0
+True
+False
+
+All Generic method declarations have a ___ delimited by angle brackets that precedes the method's return type.
+1
+class
+type-parameter section
+Lambda
 
 :Recursion
 
@@ -422,7 +502,7 @@ Recursion is used to split a large problem into similar smaller problems that ar
 True
 False
 
-A recursive method calls itself directly or indirectly through another method
+A recursive method calls itself directly or indirectly through another method.
 0
 True
 False
@@ -434,7 +514,7 @@ Recursion
 Fractal 
 None of above is correct.
 
-Which of these data types is used by operating system to manage the Recursion in Java?
+Which of these data types is used by operating system to manage the recursion in Java?
 1
 Array
 Stack
@@ -448,15 +528,26 @@ False
 
 Recursion can be inefficient in computation because of multiple method calls and excessive memory-space usage.
 0
-true
-false
+True
+False
 
-Each time a fractal's pattern is applied, the fractal is said to be at a new _______.
+Each time a fractal's pattern is applied, the fractal is said to be at a new ___.
 1
 width
 level
 height
 volume
+
+A Fractal is a geometric figure that is generated from a pattern repeated recursively.
+0
+True
+False
+
+A ___ method calls itself directly or indirectly through another method.
+0
+recursive
+generic
+abstract
 
 :Concurrency
 
@@ -477,7 +568,7 @@ An operating system’s thread scheduler determines the order in which thread ar
 True
 False
 
-A runnable thread can enter the ___ for a specified interval of time::D::Concurrency::Thread States and Life Circle
+A runnable thread can enter the ___ for a specified interval of time.
 3	
 New and Runnable State
 Waiting State
@@ -498,12 +589,23 @@ all the above
 
 Timeslicing allows a thread to execute until its timeslice (or quantum) expires. Then other threads of equal priority can execute.
 0
-true
-false
+True
+False
 
-To obtain a parallel stream, simple invoke method ________ on an existing stream/
+To obtain a parallel stream, simple invoke method ________ on an existing stream.
 3
 signal
 signalAll
 paarallelSetAll
 parallel
+
+A program will not terminate until its last thread completes execution.
+0
+True
+False
+
+A ___ object represents a task that can execute concurrently with other tasks.
+0
+Runnable
+Interface
+sleeping
