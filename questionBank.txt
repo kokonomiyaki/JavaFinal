@@ -30,7 +30,7 @@ True
 False
 
 Which of these operations is used to allocate memory to array variable in Java?
-2???
+2
 malloc
 alloc
 new
@@ -92,7 +92,7 @@ True
 False
 
 Declaring a superclass instance variables as ___ enables the superclass implementation of these instance variables to change without affecting subclass implementations.
-3???
+3
 public
 private
 new
@@ -173,7 +173,7 @@ Private
 all of the above
 
 An astract method cannot be defined in a non-abstract class.
-1???
+1
 True
 False
 
@@ -260,7 +260,7 @@ True
 False
 
 “==” determines whether two objects have the same contents.
-0???
+0
 True
 False
 
@@ -387,7 +387,7 @@ True
 False
 
 (p) -> System.out.println("One parameter: " + p); is ___.
-0	
+0
 One parameter.
 Zero parameter.
 Multiple parameter.
@@ -569,7 +569,7 @@ True
 False
 
 A runnable thread can enter the ___ for a specified interval of time.
-3	
+3
 New and Runnable State
 Waiting State
 Blocked State
@@ -609,3 +609,4 @@ A ___ object represents a task that can execute concurrently with other tasks.
 Runnable
 Interface
 sleeping
+
