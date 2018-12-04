@@ -1,32 +1,44 @@
 import java.util.ArrayList;
 import java.util.Scanner;
+import java.util.concurrent.ConcurrentLinkedQueue;
 import java.io.File;
 import java.io.IOException;
 
-public class LoadQuestions
+public class LoadQuestions implements Runnable
 {
-    public static ArrayList<ArrayList<Question>> loadQuestion(){
-        //creating an ArrayList of an Arraylis named "Question" to store 100 questions of 10 topics  (Thau)
-        ArrayList<ArrayList<Question>> list = new ArrayList<ArrayList<Question>>();
+    private ConcurrentLinkedQueue<ArrayList<Question>> que;
+    //@Param1 The queue that you will be pulling questions from.
+    public LoadQuestions(ConcurrentLinkedQueue<ArrayList<Question>> que){
+        this.que = que;
+    }
+
+    public void run(){
         Scanner fileReader;
         //using FileIO and Exception to load questionBank.txt file  (Thau)
         try{
             fileReader = new Scanner(new File("questionBank.txt"));
         } catch(IOException e){
             System.out.println("File not found.");
-            return null;
+            return;
         }
-        String holder; 
-        int index = -1;
+        String holder;
+        ArrayList<Question> list = null;
+
         //loading each line of questionBank.txt file  (Thau)
+
         while(fileReader.hasNext()){
             holder = fileReader.nextLine();
             //slipt 100 quesions into 10 different topics using charAt() to check if the first character of the line is ":"  (Thau)
             if(holder.charAt(0)==':' || holder.charAt(1)==':'){
-                index++;
-                list.add(new ArrayList<Question>()); //add to the Question Arraylist  (Thau)
+            	// Checks to make sure its not on the first rotation before offering the packet of questions.
+                if(list!=null){
+                    que.offer(list);
+                }
+                list = new ArrayList<Question>();//add to the Question Arraylist  (Thau)
+
                 fileReader.nextLine();
             } else {
+            	// Parsing a question.
                 String question = holder;
                 int answerIndex = Integer.parseInt(fileReader.nextLine());
                 holder = fileReader.nextLine();
@@ -35,10 +47,11 @@ public class LoadQuestions
                     answers.add(holder);
                     holder = fileReader.nextLine();
                 }
-                list.get(index).add(new Question(question,answers,answerIndex));
+                list.add(new Question(question,answers,answerIndex));
             } 
         }
+        que.offer(list);
         fileReader.close();
-        return list;
+        return;
     }
 }
