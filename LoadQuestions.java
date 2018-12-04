@@ -14,6 +14,7 @@ public class LoadQuestions implements Runnable
 
     public void run(){
         Scanner fileReader;
+        //using FileIO and Exception to load questionBank.txt file  (Thau)
         try{
             fileReader = new Scanner(new File("questionBank.txt"));
         } catch(IOException e){
@@ -22,14 +23,19 @@ public class LoadQuestions implements Runnable
         }
         String holder;
         ArrayList<Question> list = null;
+
+        //loading each line of questionBank.txt file  (Thau)
+
         while(fileReader.hasNext()){
             holder = fileReader.nextLine();
+            //slipt 100 quesions into 10 different topics using charAt() to check if the first character of the line is ":"  (Thau)
             if(holder.charAt(0)==':' || holder.charAt(1)==':'){
             	// Checks to make sure its not on the first rotation before offering the packet of questions.
                 if(list!=null){
                     que.offer(list);
                 }
-                list = new ArrayList<Question>();
+                list = new ArrayList<Question>();//add to the Question Arraylist  (Thau)
+
                 fileReader.nextLine();
             } else {
             	// Parsing a question.
