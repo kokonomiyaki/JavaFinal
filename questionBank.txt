@@ -60,6 +60,20 @@ The position number of the element of an array is called the element's Index or 
 True
 False
 
+Which expression refers to the first element of the array .
+0
+a[0]
+a[1]
+a[01]
+none of the above
+
+Which is a 3x3 two-dimensional array of integers named toe? 
+0
+int toe[3][3];
+toe[2][2];
+int toe[3];
+none of the above
+
 :Inheritance
 
 Which of the following is the correct way for the SavingsAccount class to inherit from the BankAccount class.
@@ -134,6 +148,16 @@ Java supports only single inheritance, in which each class is derived from exact
 True
 False
 
+One advantage of inheritance is that objects of a subclass can be treated like objects of their superclass. 
+0
+True
+False
+
+To avoid duplicating code, use inheritance rather than "copy-and-paste" approach. 
+0
+True
+False
+
 :Interface dependent Polymorphism
 
 Which is a declaration of an abstract method named onClicked, is void returning and has no parameters?
@@ -195,6 +219,17 @@ default
 abstract
 interface
 
+An interface declaration begins with the keyword _______. 
+0
+Interface
+public
+IDE
+
+If the superclass contains only abstract method declarations, the superclass is used for interface inheritance. 
+0
+True
+False
+
 :Software development
 
 Exceptions are thrown when a method detects a problem and is unable to handle it.
@@ -244,6 +279,20 @@ If no package is specified, a new package is created with folder name of class a
 1
 True
 False
+
+In Java, packages are often distributed as executable Java archives also known as ______.
+0
+jar files
+zip files
+jde files
+none of the above
+
+An identifier that cannot be used as a variable name in java is a _______ word.
+1
+Held
+Reserved
+secret
+none of the above
 
 :Regex
 
@@ -302,10 +351,21 @@ What quantifier is used to match zero or more occurrences?
 {n}
 *
 
-True or False. In regex, a character class is an "escape sequence" that represents a group of characters.
+In regex, a character class is an "escape sequence" that represents a group of characters.
 0
 True
 False
+
+Object of pattern class is used to compile regular expression. 
+0
+True
+False
+
+A ____________ is a means for specifying a textual pattern. REGULAR EXPRESSION
+2
+Regular Expression
+Regex
+All of the above
 
 :I/O & object serialization
 
@@ -428,6 +488,28 @@ arrow token (->)
 x
 int
 
+To serialize a list, it must be defined as an instance variable of a class. 
+0
+True
+False
+
+Path method toString returns a _______ representatiion of the path
+1
+Integer
+String
+Double
+
+Lambda expressions implement _______. 
+0
+Functional Interfaces
+Generic classes
+None of the above
+
+A lambda expression consists of an arrow pointing to the right. 
+0
+True
+False
+
 :Generic classes and methods
 
 Which of the following is the declaration of a Test class with a generic data type E.
@@ -487,6 +569,19 @@ All Generic method declarations have a ___ delimited by angle brackets that prec
 class
 type-parameter section
 Lambda
+
+The keyword ______ indicates that a method does not return a value.
+0
+Void
+Public
+def
+None of the above
+
+A class that implements an interface but does not declare all of the interface's methods must be declared ________.  
+0
+Abstract
+Public
+Private
 
 :Recursion
 
@@ -549,6 +644,18 @@ recursive
 generic
 abstract
 
+If a recursive method does not have a base case then _______ occurs which results in Stack Overflow.
+1
+nothing
+Infinite loop
+none of the above
+
+The data types used by operating system to manage Recursion in Java is called_____.
+2
+Int
+String
+Stack
+
 :Concurrency
 
 Which is thread safe.
@@ -609,4 +716,18 @@ A ___ object represents a task that can execute concurrently with other tasks.
 Runnable
 Interface
 sleeping
+
+What is the process of executing multiple threads simultaneously?
+0
+Multithreading
+Single threading
+None of the above
+
+The process that an operating system uses to determine which thread to dispatch is called ______ _______. 
+0
+Thread scheduling
+Operation scheduling
+OS scheduling
+
+
 
