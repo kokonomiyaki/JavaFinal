@@ -16,7 +16,7 @@ import javax.swing.JPanel;
 
 
 public class ChartPanel extends JPanel {
-    private double[] values;
+    private int[] values;
 
     private String[] names;
 
@@ -24,7 +24,7 @@ public class ChartPanel extends JPanel {
    
     
 
-    public ChartPanel(double[] v, String[] n, String t) {
+    public ChartPanel(int[] v, String[] n, String t) {
         names = n;
         values = v;
         title = t;
@@ -107,7 +107,7 @@ public class ChartPanel extends JPanel {
         
 
         
-        double[] values = new double[10];
+        int[] values = new int[10];
         String[] names = new String[10];
         values[0] = 1;
         names[0] = "Arrays";
