@@ -728,4 +728,3 @@ The process that an operating system uses to determine which thread to dispatch 
 Thread scheduling
 Operation scheduling
 OS scheduling
-
