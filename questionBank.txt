@@ -729,5 +729,3 @@ Thread scheduling
 Operation scheduling
 OS scheduling
 
-
-
