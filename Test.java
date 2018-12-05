@@ -1,19 +1,22 @@
-public class Test implements PickRandomQuestions
-{
+import javax.swing.*;
+
+public class Test extends JFrame implements PickRandomQuestions {
+
     public static void main(String[] args){
         new Test();
     }
+
     public Test(){
-        startRandom();
-        Question[] questions = pickRandom();
-        int count = 0;
-        while(questions!=null){
-            for(Question q : questions){
-                System.out.println(q.getQuestion());
+
+        SwingUtilities.invokeLater(new Runnable() {
+
+            @Override
+            public void run() {
+                JFrame frame = new TestFrame("Object Oriented Final");
+                frame.setSize(600, 400);
+                frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+                frame.setVisible(true);
             }
-            System.out.println(++count);
-            questions = pickRandom();
-        }
-        
+        });
     }
 }
