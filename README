@@ -1,16 +1,1 @@
-Questions created so far by:
-Wakako
-Zach
-Thao
-Patrick
-Cameron
 
-Zach & Wakako: Formatted questions, created repository, added files
-Question.java - Created by Zach
-
-Thursday meeting?
-
-Zach: Formatted the rest of the questions. Made minor tweaks to some questions so Q&A format is somewhat similar. ??? marks i have a question about the specific question.
-
-Idea: The way Zach and Wakako formatted the questions, we were thinking of creating a GUI with radio buttons for each answer. We will be 
-storing the answers in an array. Before each answer in the text document, we have the index of the array with the correct answer.
