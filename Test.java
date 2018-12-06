@@ -1,6 +1,6 @@
-import javax.swing.*;
+import javax.swing.*; v
 
-public class Test extends JFrame implements PickRandomQuestions {
+public class Test extends JFrame implements PickRandomQuestions { //main class that runs TestFrame.java
 
     public static void main(String[] args){
         new Test();
