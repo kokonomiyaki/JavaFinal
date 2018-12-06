@@ -9,7 +9,7 @@ Questions.java__ Holds the array list of the questions and the answers
 
 Text.java__Holds the main class that runs TestFrame.java
 
-TextFrame.java__ Holds the TexFrame class wich is the GUI component
+TextFrame.java__ Holds the TexFrame class which is the GUI component
 
 questionBank.txt__ Holds the lists of all the questions and the answers
 
