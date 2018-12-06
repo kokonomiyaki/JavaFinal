@@ -1,1 +1,15 @@
 
+LIST OF ALL THE FILES IN THE FINAL PROJECT AND THEIR FUNCTIONS 
+
+LoadQuestions.java__ Loads the questions from the questionBank.txt
+
+PickRandomQuestions.java__ Loads the Questions and returns 3 random questions from each section
+
+Questions.java__ Holds the array list of the questions and the answers
+
+Text.java__Holds the main class that runs TestFrame.java
+
+TextFrame.java__ Holds the TexFrame class wich is the GUI component
+
+questionBank.txt__ Holds the lists of all the questions and the answers
+
