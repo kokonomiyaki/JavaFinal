@@ -86,7 +86,7 @@ public class TestFrame extends JFrame implements PickRandomQuestions, ActionList
 
             for(int i = 0; i < radioButtonList.size(); i++){
             if (radioButtonList.get(i).isSelected()){
-                questions.get(i).isCorrect(radioButtonList.indexOf(i));
+                questions.get(i).isCorrect(i);
                 System.out.println(questions.get(count).isCorrect(i));
             }
             }
