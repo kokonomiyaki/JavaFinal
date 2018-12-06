@@ -11,7 +11,7 @@ Cameron: Created 20 questions. Wrote GUI components
 
 Thau: Created 20 questions. Added commentary throughout code.
 
-Johnson: Created 20 questions.
+Johnson: Created 20 questions. Updated Readme with description of each file.
 
 Zach: Formatted the rest of the questions. Made minor tweaks to some questions so Q&A format is somewhat similar. ??? marks i have a question about the specific question.
 
