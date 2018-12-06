@@ -59,7 +59,7 @@ public class TestFrame extends JFrame implements PickRandomQuestions, ActionList
         if(source == startButton) {
              startRandom();
              Question[] questions1 = pickRandom();
-             questionLabel.setText(questions1[count].getQuestion());
+             questionLabel.setText("<html>" + questions1[count].getQuestion() + "</html>");
 
 
              while(questions1!=null){
@@ -92,7 +92,7 @@ public class TestFrame extends JFrame implements PickRandomQuestions, ActionList
             }
 
 
-            questionLabel.setText(questions.get(count).getQuestion());
+            questionLabel.setText("<html>" + questions.get(count).getQuestion() + "</html>");
 
             ansPanel.repaint();
 
