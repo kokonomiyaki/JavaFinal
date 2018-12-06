@@ -7,7 +7,7 @@ PickRandomQuestions.java__ Loads the Questions and returns 3 random questions fr
 
 Questions.java__ Holds the array list of the questions and the answers
 
-Text.java__Holds the main class that runs TestFrame.java
+Test.java__Holds the main class that runs TestFrame.java
 
 TestFrame.java__ Holds the TestFrame class which is the GUI component
 
