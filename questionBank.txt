@@ -361,7 +361,7 @@ Object of pattern class is used to compile regular expression.
 True
 False
 
-A ____________ is a means for specifying a textual pattern. REGULAR EXPRESSION
+A ____________ is a means for specifying a textual pattern.
 2
 Regular Expression
 Regex
