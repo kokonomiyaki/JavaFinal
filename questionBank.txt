@@ -95,10 +95,10 @@ False
 
 Which term represents inheritance?
 0
-”is-a” 
-”has-a”
-”only-has”
-”contains-a”
+"is-a" 
+"has-a"
+"only-has"
+"contains-a"
 
 A subclass can become a superclass for future subclasses.
 0
@@ -172,7 +172,7 @@ abstract public boolean onClicked();
 True
 False
 
-Polymorphism enables users to “program in the specific” rather than ”program in the general”.
+Polymorphism enables users to "program in the specific" rather than "program in the general".
 1
 True
 False
@@ -308,7 +308,7 @@ With the regex expression (yes|no) the regex matches expressions with yes or no 
 True
 False
 
-“==” determines whether two objects have the same contents.
+"==" determines whether two objects have the same contents.
 0
 True
 False
@@ -670,7 +670,7 @@ If two tasks are operating concurrently that means they are operating simultaneo
 True
 False
 
-An operating system’s thread scheduler determines the order in which thread are scheduled.
+An operating system's thread scheduler determines the order in which thread are scheduled.
 1
 True
 False
@@ -728,4 +728,3 @@ The process that an operating system uses to determine which thread to dispatch 
 Thread scheduling
 Operation scheduling
 OS scheduling
-
